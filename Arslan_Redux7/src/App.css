@@ -1,0 +1,35 @@
+.post-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.post-item p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.userId, .id, .title {
+    font-weight: bold;
+}
+
+.userId {
+    color: #007bff;
+}
+
+.id {
+    color: #28a745;
+}
+
+.title {
+    font-style: italic;
+    color: #dc3545;
+}
+
+.post-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
